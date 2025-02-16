@@ -187,6 +187,7 @@ const ScriptInput = ({ setCurrentStep }) => {
                         }`
                       : "Drag and drop reference images here, or browse"}
                   </label>
+
                   <div className="file-list">
                     {imgFiles.map((file, index) => (
                       <div key={index} className="file-item">
